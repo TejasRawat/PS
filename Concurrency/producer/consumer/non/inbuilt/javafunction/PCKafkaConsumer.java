@@ -2,11 +2,11 @@ package producer.consumer.non.inbuilt.javafunction;
 
 import java.util.Vector;
 
-public class Consumer implements Runnable {
+public class PCKafkaConsumer implements Runnable {
 
 	private final Vector<Integer> sharedQueue;
 
-	public Consumer(Vector<Integer> sharedQueue, int size) {
+	public PCKafkaConsumer(Vector<Integer> sharedQueue, int size) {
 		this.sharedQueue = sharedQueue;
 	}
 
